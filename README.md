@@ -1,6 +1,6 @@
 # npmtest-camerapi
 
-#### basic test coverage for  camerapi (v0.1.0)  [![npm package](https://img.shields.io/npm/v/npmtest-camerapi.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-camerapi) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-camerapi.svg)](https://travis-ci.org/npmtest/node-npmtest-camerapi)
+#### basic test coverage for  [camerapi (v0.1.0)](https://github.com/leandroosalas/camerapi)  [![npm package](https://img.shields.io/npm/v/npmtest-camerapi.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-camerapi) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-camerapi.svg)](https://travis-ci.org/npmtest/node-npmtest-camerapi)
 
 #### Raspberry Pi Camera module
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-camerapi/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-camerapi/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-camerapi/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-camerapi/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-camerapi/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-camerapi/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-camerapi/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-camerapi/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-camerapi/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-camerapi/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-camerapi/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-camerapi/build/coverage.html/index.html)
 
@@ -35,22 +35,44 @@
 ```json
 
 {
-    "name": "camerapi",
-    "version": "0.1.0",
+    "author": {
+        "name": "Leandro Salas"
+    },
+    "bugs": {
+        "url": "https://github.com/leandroosalas/camerapi/issues"
+    },
+    "dependencies": {},
     "description": "Raspberry Pi Camera module",
-    "main": "index.js",
+    "devDependencies": {},
+    "directories": {},
+    "dist": {
+        "shasum": "72de4eb08e8f325b143712b3f8110eea2fd177ea",
+        "tarball": "https://registry.npmjs.org/camerapi/-/camerapi-0.1.0.tgz"
+    },
+    "gitHead": "6993cf3e814a36645c741093d35f6171f0d02171",
+    "homepage": "https://github.com/leandroosalas/camerapi",
     "keywords": [
         "Camera",
         "Raspberry",
         "PI",
         "Raspicam"
     ],
+    "license": "MIT",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "leandroosalas"
+        }
+    ],
+    "name": "camerapi",
+    "optionalDependencies": {},
     "repository": {
         "type": "git",
         "url": "git://github.com/leandroosalas/camerapi.git"
     },
-    "author": "Leandro Salas",
-    "license": "MIT"
+    "scripts": {},
+    "version": "0.1.0",
+    "bin": {}
 }
 ```
 
